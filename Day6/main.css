@@ -69,14 +69,18 @@ ul {
     font-weight: bold;
     text-align: center; 
     margin-right: 13px;
+    vertical-align: middle;
 }
 .img:last-child{
     margin-right: 0;
 }
-.img p {
+/* .img p {
     position:relative;
     top:50%;
     transform: translateY(-50%);
+} */
+.img p{
+    line-height: 200px;
 }
 #article-container {
     width: 950px; 
